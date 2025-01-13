@@ -56,3 +56,29 @@ npm run dev
 Step 5: Configure the React App
 Open src/App.jsx in the client directory.
 Update the URL variable with the URL provided by the Python Flask server, including the predetermined route (e.g., const URL = "http://127.0.0.1:5000?year=";).
+
+
+nettle-dashboard/
+├── server/
+│   ├── main.py
+│   ├── model.py
+│   ├── requirements.txt
+│   ├── processed_data.csv
+│   ├── us_disaster_declarations.csv
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── BarChart.jsx
+│   │   │   ├── Map.jsx
+|   |   |  ├── StateTable.jsx
+│   │   │   └── UserInput.jsx
+│   │   ├── App.css
+│   │   ├── App.jsx
+|   |    ├──main.jsx
+│   │   └── index.css
+│   │       ├── api.ts
+│   ├── package-lock.json
+│   ├── package.json
+├── README.md
+└── .gitignore
